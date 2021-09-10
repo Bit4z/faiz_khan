@@ -1,0 +1,28 @@
+version control:- suppose there are 3 developers working remotely on a web application each of them writes code for differnts pages.
+or
+version control is a system that records changes to a file or set of files over time so that you can recall specific later. These version are recorded in a repository and can be recalled
+
+from the same there are local centralised and dicenterlized version control systems.
+
+Repository: A repository is a directory or storage space where your project can live.
+mkdir git
+git --version
+git status
+git config --global user.name "ziyaulhaq khan"
+git config --global usel.email "ziyaulhaq.khan17@gmail.com"
+git init
+ls -lart
+git status
+git add <file name>//add file in staging area
+git commit -m "file created successfully.."
+git log//what commit you have done
+git show 5b68633(commit id)
+git ls-files
+git remote add origin <link>link paste from github
+git remote -v  //print out repository location
+git checkout <file name>// file back into privious such as file for e.g we commit a file after that i have changed that file and save it so we again want to previous file so use this command and this modified file checked with commit file it will get changes so file will become as previous. 
+git checout -f//all modified file will come previous stage.
+git log -p -1//how many commitsdo you want to see
+git diff//showing the changes what changes do you have made
+git add -A//
+git diff --stage//last commit compare with staging area
