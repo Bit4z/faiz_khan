@@ -26,3 +26,10 @@ git log -p -1//how many commitsdo you want to see
 git diff//showing the changes what changes do you have made
 git add -A//
 git diff --stage//last commit compare with staging area
+git rm//delete file
+git rm --cached <filename>//remove only staging area.
+.gitignore//.gitignore file is used to ignore commit and other thing that file put inside gitignore file.
+git branch <branch name>//add branch
+git branch//checking branch how many branch are there.
+git checkout <branch name>//switch branch
+git merge <branch name>//merge that file into master branch which is commit other branch.
